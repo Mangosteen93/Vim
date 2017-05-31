@@ -18,16 +18,16 @@
 ## Ctags on OSX
 Snow Leo ships with ctags not suitable for Ruby development. I.e. if you try to generate tags recursively, it will error out:
 
-$ ctags -R
+`$ ctags -R`
 ctags: illegal option -- R   
 usage: ctags [-BFadtuwvx] [-f tagsfile] file ...
 
-$ which ctags   
+`$ which ctags`   
 /usr/bin/ctags
 
 homebrew to the rescue:
 
-$ brew install ctags   
+`$ brew install ctags`   `
 ==> Downloading http://downloads.sourceforge.net/ctags/ctags-5.8.tar.gz   
 ######################################################################## 100.0%   
 ==> ./configure --prefix=/usr/local/Cellar/ctags/5.8 --enable-macro-patterns--mandir=/usr/local/Cellar/ctags/5.8/share/man --with-readlib   
@@ -36,15 +36,15 @@ $ brew install ctags
 
 Now we need to alias ctags to use new version:
 
-$ alias ctags="`brew --prefix`/bin/ctags"   
+`$ alias ctags="`brew --prefix`/bin/ctags"`   
 
 And now back to coding:
 
-$ ctags -R   
+`$ ctags -R   `
 ctags: Warning: ignoring null tag in public/audio/audio-player.js   
 Dont forget to save ctags alias, ie like this:
 
-$ alias ctags >> ~/.zshrc   
+`$ alias ctags >> ~/.zshrc`   
 And yes, homebrew rocks!
 
 ### Tips
