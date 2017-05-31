@@ -42,7 +42,8 @@ usage: ctags [-BFadtuwvx] [-f tagsfile] file ...
 
 `$ ctags -R`   
 ctags: Warning: ignoring null tag in public/audio/audio-player.js   
-Dont forget to save ctags alias, ie like this:
+
+**Dont forget to save ctags alias, ie like this:**
 
 `$ alias ctags >> ~/.zshrc`   
 
