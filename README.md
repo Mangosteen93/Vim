@@ -36,7 +36,7 @@ usage: ctags [-BFadtuwvx] [-f tagsfile] file ...
 
 **Now we need to alias ctags to use new version:**
 
-`$ alias ctags="\`brew --prefix\`/bin/ctags"`   
+``$ alias ctags="`brew --prefix`/bin/ctags"``   
 
 **And now back to coding:**
 
