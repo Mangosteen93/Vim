@@ -49,5 +49,5 @@ ctags: Warning: ignoring null tag in public/audio/audio-player.js
 
 **And yes, homebrew rocks!**
 
-### Tips
+## Tips
   Mac os中，Ctrl = shift + control
