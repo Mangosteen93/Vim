@@ -1,6 +1,6 @@
 # WatcherVim
 
-## Vim打开多窗口，多文件之间的切换
+## 快捷键
 ### 多文件
 #### 1·Vim未启动时
   vim file1 file2 ... filen
@@ -14,6 +14,15 @@
 
 ### 多窗口
   Ctrl + ww      切换到下一个窗格
+
+### 复制多行
+在命令模式下，将光标移动到将要复制的首行处，按“nyy”复制n行；其中n为1、2、3......
+
+###粘贴
+在命令模式下，将光标移动到将要粘贴的行处，按“p”进行粘贴
+
+###删除一行
+在命令模式下，将光标移动到将要删除的行处，但“dd”进行删除
 
 ## Ctags on OSX
 **Snow Leo ships with ctags not suitable for Ruby development. I.e. if you try to generate tags recursively, it will error out:**   
