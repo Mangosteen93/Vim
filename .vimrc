@@ -12,7 +12,7 @@ syntax enable
 " Set syntax highlighting for specific file types
 autocmd BufRead,BufNewFile Appraisals set filetype=ruby
 autocmd BufRead,BufNewFile *.md set filetype=markdown
-autocmd Syntax javascript set syntax=jquery
+" autocmd Syntax javascript set syntax=jquery
 
 " Color scheme
 colorscheme molokai
